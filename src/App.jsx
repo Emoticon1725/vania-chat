@@ -20,6 +20,7 @@ function App() {
             <ChatRoom />
           </PrivateRoute>
         }
+        />
        </Routes>
     </AuthProvider>
     </Router>
