@@ -22,9 +22,6 @@ function App() {
           </PrivateRoute>
         }
       />
-      <Route path="*" element={<NotFound />} /> {/* Catch-all route for 404 */}
-      </Routes>
-
     </AuthProvider>
     </Router>
     
